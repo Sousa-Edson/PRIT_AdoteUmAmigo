@@ -1,109 +1,159 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Adoção</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="adocao.css" />
-  </head>
+  <title>Adoção</title>
 
-  <body>
-    <main>
-      <section class="ladoA">
-        <div class="imagemLogo">
-          <h2>Obrigado por me escolher</h2>
-          <h3>
-            Falta pouco, você deve fazer sua solicitação na area de adoção!
-          </h3>
-          <img
-            src="https://www.hypeness.com.br/1/2019/09/Vira-lata_Caramelo_2.jpg"
-            alt="vira-lata-caramelo"
-          />
-          <h3>Nome: Caramelo Brasil</h3>
-          <h3>Idade: 2 anos</h3>
-          <h3>Sexo: Masculino</h3>
-          <h3>Raça: Vira-lata</h3>
-          <h3>Porte: Médio</h3>
-          <h2>Informações sobre o animal</h2>
-          <p> Cachorro amigo e legal, sempre brincalhão , super agitado.</p>
-           <p> Precisa de espaço para brincar;</p>
-           <p> Super amoroso com crianças.</p>
-           <h2>Qual foi o motivo de doar do animal?</h2>
-           <p> Recentemente tive de mudar de casa para apartamento.
-            Fiquei sem espaço e como ele é agitado e precisa de espaço , decidi entrar com a doação.
-            </p>
-            <h2>Historico de saúde do animal</h2>
-           <ul>
-             <li>Tomou vacinas de campanhas: sim</li>
-             <li>Tem algum problema de saúde: não</li>
-             <li>Teve acompanhamento com veterinário: sim</li>
-             <li>Teve outros responsaveis</li>
-           </ul>
+  <link rel="stylesheet" href="adocao.css" />
+</head>
 
-          </p>
-        </div>
-      </section>
-      <section class="ladoB">
-        <div class="conteiner">
-          <h1>Area de adoção</h1>
-          <h2>Será feitas algumas perguntas a voçê, tudo bem?</h2>
-          <form action="index.html">
-            <div class="input-campos">
-              <ul>
+<body>
+  <main>
+    <section class="ladoA">
+      <div class="imagemLogo">
+        <h2>Obrigado por me escolher</h2>
+        <h3>
+          Falta pouco, você deve fazer sua solicitação na area de adoção!
+        </h3>
+        <img src="https://www.hypeness.com.br/1/2019/09/Vira-lata_Caramelo_2.jpg" alt="vira-lata-caramelo" />
+        <h3>Nome: Caramelo Brasil</h3>
+        <h3>Idade: 2 anos</h3>
+        <h3>Sexo: Masculino</h3>
+        <h3>Raça: Vira-lata</h3>
+        <h3>Porte: Médio</h3>
+        <h2>Informações sobre o animal</h2>
+        <p> Cachorro amigo e legal, sempre brincalhão , super agitado.</p>
+        <p> Precisa de espaço para brincar;</p>
+        <p> Super amoroso com crianças.</p>
+        <h2>Qual foi o motivo de doar do animal?</h2>
+        <p> Recentemente tive de mudar de casa para apartamento.
+          Fiquei sem espaço e como ele é agitado e precisa de espaço , decidi entrar com a doação.
+        </p>
+        <h2>Historico de saúde do animal</h2>
+        <ul>
+          <li>Tomou vacinas de campanhas: sim</li>
+          <li>Tem algum problema de saúde: não</li>
+          <li>Teve acompanhamento com veterinário: sim</li>
+          <li>Teve outros responsaveis</li>
+        </ul>
+
+        </p>
+      </div>
+    </section>
+    <section class="ladoB">
+      <div class="conteiner">
+        <h1>Area de adoção</h1>
+        <h2>Será feitas algumas perguntas a voçê, tudo bem?</h2>
+        <form action="index.html">
+          <div class="input-campos">
+            <ul>
+              <li>
+                Você gosta de animais?
+              <li>
+                <input class="selecao" type="radio" name="animal_casa" value="sim">
+                <label for="">Sim</label>
+                <input class="selecao" type="radio" name="animal_casa" value="nao">
+                <label for="">Não</label></li>
+              </li>
                 <li>
-                  Você ja tem algum animal em sua casa?  
-                  <li> <input type="radio" name="animal_casa" value="sim">
-                  <label for="">Sim</label>
-                  <input type="radio"   name="animal_casa" value="nao">
-                  <label for="">Não</label></li> 
-                 
-             </li>
-            <li>
-                  Você  tem condições de ter um animal em sua casa?   
-                  <li>  <input type="radio" name="animal_casa" value="sim">
-        <label for="">Sim</label>
-                  <input type="radio"   name="animal_casa" value="nao">
-            <label for="">Não</label></li>
-                
-         </li>
-         <li>
-          Sua residencia é ?   <li><input type="radio" name="animal_casa" value="sim">
-          <label for="">Casa</label>
-          <input type="radio"   name="animal_casa" value="nao">
-    <label for="">Apartamento</label></li>
-          
- </li>
- <li>
-  Sua residencia é ?   <li><input  class="selecao"  type="radio" name="animal_casa" value="sim">
-        <label class="selecao-label" for="">Própria</label>
-        <input  class="selecao"  type="radio"   name="animal_casa" value="nao">
-  <label class="selecao-label"  for="">Alugada</label></li>
-  
-</li>
-<li>
-  Voçê tem disponibilidade de horario para passeios ? 
-  <li>input  class="selecao"  type="radio" name="animal_casa" value="sim">
-        <label class="selecao-label"  for="">Sim</label>
-        <input  class="selecao"  type="radio"   name="animal_casa" value="nao">
-  <label class="selecao-label"  for="">não</label></li>  
-  <
-</li>
-<li>
-Na sua auseinçia tem alguem que possa cuidar do animal ?   
-<input class="selecao" type="radio" name="animal_casa" value="sim">
-        <label class="selecao-label"  for="">Sim</label>
-        <input  class="selecao"  type="radio"   name="animal_casa" value="nao">
-  <label class="selecao-label"  for="">não</label>
-</li>
-              </ul>
-            </div> 
-           
-          </form>
-        </div>
-      </section>
-    </main>
-  </body>
+                Você ja tem algum animal em sua casa?
+              <li>
+                <input class="selecao" type="radio" name="animal_casa" value="sim">
+                <label for="">Sim</label>
+                <input class="selecao" type="radio" name="animal_casa" value="nao">
+                <label for="">Não</label></li>
+              </li>
+              <li>
+                Se a resposta anterior foi sim, tem quantos são? <small>se não coloque menos de 2.</small>
+              <li>
+                <input class="selecao" type="radio" name="animal_casa" value="sim">
+                <label for="">menos de 2</label>
+                <input class="selecao" type="radio" name="animal_casa" value="sim">
+                <label for="">de 2 a 4</label>
+                <input class="selecao" type="radio" name="animal_casa" value="nao">
+                <label for="">mais de 4</label></li>
+              </li>
+              <li>
+                Você tem condições de ter um animal em sua casa?
+              <li> <input class="selecao" type="radio" name="animal_casa" value="sim">
+                <label for="">Sim</label>
+                <input class="selecao" type="radio" name="animal_casa" value="nao">
+                <label for="">Não</label></li>
+
+              </li>
+              <li>
+                Sua residencia é ?
+              <li>
+                <input class="selecao" type="radio" name="animal_casa" value="sim">
+                <label for="">Casa</label>
+                <input class="selecao" type="radio" name="animal_casa" value="nao">
+                <label for="">Apartamento</label></li>
+             <input class="selecao" type="radio" name="animal_casa" value="sim">
+                <label class="selecao-label" for="">Própria</label>
+                <input class="selecao" type="radio" name="animal_casa" value="nao">
+                <label class="selecao-label" for="">Alugada</label></li>
+              </li>
+               
+                Voçê tem disponibilidade de horario para passeios ?
+              <li>
+                <input class="selecao" type="radio" name="animal_casa" value="sim">
+                <label class="selecao-label" for="">Sim</label>
+                <input class="selecao" type="radio" name="animal_casa" value="nao">
+                <label class="selecao-label" for="">não</label></li>
+              </li>
+              <li>
+                Voçê tem Filhos(as) ?
+              <li>
+                <input class="selecao" type="radio" name="animal_casa" value="sim">
+                <label class="selecao-label" for="">Sim</label>
+                <input class="selecao" type="radio" name="animal_casa" value="nao">
+                <label class="selecao-label" for="">não</label></li>
+              </li>
+              <li>
+                Se a resposta anterior foi sim, tem quantos são? <small>se não coloque menos de 2.</small>
+              <li>
+                <input class="selecao" type="radio" name="animal_casa" value="sim">
+                <label for="">1</label>
+                <input class="selecao" type="radio" name="animal_casa" value="sim">
+                <label for="">2</label>
+                <input class="selecao" type="radio" name="animal_casa" value="nao">
+                <label for="">mais de 2</label></li>
+              </li>
+              <li>
+                Voçê tem disponibilidade de horario para passeios ?
+              <li>
+                <input class="selecao" type="radio" name="animal_casa" value="sim">
+                <label class="selecao-label" for="">Sim</label>
+                <input class="selecao" type="radio" name="animal_casa" value="nao">
+                <label class="selecao-label" for="">não</label></li>
+              </li>
+              <li>
+                Na sua ausencia tem alguem que possa cuidar do animal ?
+              </li>
+              <li><input class="selecao" type="radio" name="animal_casa" value="sim">
+                <label class="selecao-label" for="">Sim</label>
+                <input class="selecao" type="radio" name="animal_casa" value="nao">
+                <label class="selecao-label" for="">não</label>
+              </li>
+              <li>
+               Todos em sua casa aceitam um animal em casa ?
+              </li>
+              <li><input class="selecao" type="radio" name="animal_casa" value="sim">
+                <label class="selecao-label" for="">Sim</label>
+                <input class="selecao" type="radio" name="animal_casa" value="nao">
+                <label class="selecao-label" for="">não</label>
+              </li>
+            </ul>
+          </div>
+
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
