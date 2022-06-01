@@ -63,7 +63,7 @@ img {
   color: white;
   width: 69%;
   margin-left: 1%;
-  background-color: brown;
+  /* background-color: brown; */
 }
 .conteiner h1 {
   padding-bottom: 0px;
@@ -92,8 +92,9 @@ small {
   font-style: italic;
 }
 .selecao {
+  margin-top: 5px;
   margin-left: 15px;
-  background-color: black;
+  /* background-color: black; */
 }
 
 .selecao-label {
