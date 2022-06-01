@@ -1,0 +1,239 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    background:#bbbbbb;
+    padding: 20px 0;
+}
+.caixaAdote{
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    background-color: orange;
+    font-weight: bold;
+    color: white;
+}
+.caixaLogo {
+    width:100%;
+    text-align: center;
+}
+/* Formatação da Navegação */
+.caixaMenu nav{
+    background-color: orange;
+    text-align: center;
+    border: solid black;
+    padding: 10px 0px;
+}
+.caixaMenu nav li {
+    display: inline;
+    padding: 70px;
+}
+/* Formatação das Letras */
+.caixaMenu nav  a{
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+/*Uso do hover
+Ao mover o ponteiro do mouse sobre a tag <a>
+Será formatado os itens abaixo
+Cor, underline e cursor*/
+.caixaMenu nav a:hover {
+
+    color: #000000;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*================Principal <main>===============*/
+
+.principal {
+    padding-top: 50px;
+   
+    width: 940px;
+    margin: 0 auto;
+}
+.titulo-principal{
+    text-align: center;
+    font-size: 2em ;
+    margin: 0 0 2em;
+    /*Para limpar o float utilizar o clear*/
+    clear: left;
+
+}
+.paragrafo-principal{
+padding:30px ;
+}
+.titulo-principal::first-letter{
+
+    font-size: 50px;
+
+}
+.principal-imagem{
+    width: 100px;
+    float: left;
+    margin: 10px;
+}
+.principal p {
+    margin: 0 0 1em;
+    font-size: 20px;
+}
+.principal strong { 
+    font-weight: bold;
+}
+.principal em{
+    font-style: italic;
+}
+/*=====================colaboradores====================*/
+
+.titulo-colaboradores {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+
+}
+.titulo-deliverey::first-letter{
+    font-size: 50px;
+
+}
+.colaboradores table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.colaboradores th{
+    background-color: orange;
+    color: white;
+    padding: 30px;
+}
+.colaboradores tr,
+.colaboradores td,
+.colaboradores th{
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.colaboradores img{
+    width: 40%;
+
+}
+/*===============catalogo============*/
+
+.catalogo{
+    padding: 50px 0;
+   
+
+}
+.titulo-catalogo{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    padding: 10px 0 0 0;
+
+}
+.titulo-catalogo:first-letter{
+    font-size: 50px;
+
+}
+.catalogo table{
+    border: 9px;
+    border-style: solid;
+    border-color: orange;
+    margin-left: auto;
+    margin-right: auto;
+}
+.catalogo tr,td{
+    text-align: center;
+    color: blue;
+}
+.catalogo figcaption{
+    font-weight: bold;
+    font-size: 20px;
+}
+.catalogo img{
+    width: 300px;
+    height: 250px;
+    padding: 20px 20px 0px 20px;
+
+}
+/*=====================Missao===============*/
+.missao{
+    padding-top: 50px;
+    
+        width: 940px;
+        margin: 0 auto;
+}
+
+.titulo-missao{
+    text-align: center;
+        font-size: 2em;
+        margin: 0 0 2em;
+        /*Para limpar o float utilizar o clear*/
+        clear: left;
+}.paragrafo-missao {
+    padding: 30px;
+}
+
+.titulo-missao::first-letter {
+
+    font-size: 50px;
+
+}
+
+.missao-imagem {
+    width: 100px;
+    float: left;
+    margin: 10px;
+}
+
+.missao p {
+    margin: 0 0 1em;
+    font-size: 20px;
+}
+
+.missao strong {
+    font-weight: bold;
+}
+
+.missao em {
+    font-style: italic;
+}
+/*=================Contato=============*/
+.contato{
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.titulo-contato:first-letter{
+    font-size: 40px;
+}
+.contato li{
+    display: inline;
+    margin: 0 30px 0 25px;
+    font-size: 30px;
+    /*border; 2px solid red;*/
+}
+/*Footer*/
+footer{
+    
+    background: url("imagens/bg.jpg");
+    text-align: center;
+}
+footer img{
+    padding-top:15px;
+    padding-bottom: 1px;
+    width: 10%;
+}
+.copyright {
+    color: white;
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+
+
+        
