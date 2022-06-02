@@ -1,95 +1,280 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-/* @font-face {
-    /* src: url(Roboto/Roboto-Light.ttf);
-    font-family: 'Raleway-Light';    
-    font-weight: 100; */
-/* }  */
 body {
-  /* font-family: 'Raleway-Light';  */
-  /* background-color: #bbbbbb; */
-  /* background-color: rgba(255, 255, 0, 0.308); */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/*HEADER*/
+header {
+  background: #bbbbbb;
+  /* padding: 20px 0; */
+}
+
+.caixaAdote {
+  display: flexbox;
+  width: 100%;
+  height: 6vh;
+  font-size: 65px;
+  text-align: center;
   background-color: orange;
+  font-weight: bold;
+  color: white;
+
+  padding: 0px 0px;
 }
-main {
-  display: flex;
-  position: relative;
+
+.caixaAdote input {
+  float: right;
+  background-color: blue;
+  height: 6vh;
+  width: 8vw;
+  font-size: 45px;
+  color: white;
+  font-weight: bold;
 }
-a {
+
+.caixaLogo {
+  width: 100%;
+  text-align: center;
+}
+
+/* Formatação da Navegação */
+.caixaMenu nav {
+  background-color: orange;
+  text-align: center;
+  border: solid black;
+  padding: 50px 0px;
+}
+
+.caixaMenu nav li {
+  display: inline;
+  padding: 70px;
+}
+
+/* Formatação das Letras */
+.caixaMenu nav a {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
   text-decoration: none;
 }
-.titulo {
-  background-color: rgb(10, 139, 179);
-  display: block;
-  font-size: 35px;
-  text-align: center;
+
+/*Uso do hover
+Ao mover o ponteiro do mouse sobre a tag <a>
+Será formatado os itens abaixo
+Cor, underline e cursor*/
+.caixaMenu nav a:hover {
+  color: #000000;
+  text-decoration: underline;
+  cursor: pointer;
 }
-.ladoA {
-  height: 100vh;
-  width: 50vw;
-  position: relative;
+
+/*================Principal <main>===============*/
+
+.principal-sobre {
+  padding: 80px;
+  width: 60vw;
+  margin: 0 auto;
+  height: 80vh;
 }
-.imagemLogo {
-  margin: 10px;
-  padding: 20px;
+
+.principal-imagem {
+  width: 400px;
+  height: 400px;
+  float: left;
+  margin-top: 60px;
 }
-img {
-  margin-top: 10px;
-  height: 100%;
-  width: 100%;
+
+.principal-sobre p {
+  /* margin: 0 0 1em; */
+  font-size: 40px;
+  margin-top: 60px;
+  padding: 90px;
+  /* align-items: center; */
+
+  text-align: justify;
 }
-.ladoB {
-  height: 100vh;
-  width: 50vw;
-  position: relative;
-  background-color: rgba(0, 0, 0, 0.5);
+
+.principal-sobre strong {
+  font-weight: bold;
 }
-.conteiner {
-  display: inline;
-  /* background-color: rgba(0, 0, 0, 0.8); */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 100px;
-  border-radius: 15px;
+
+.principal-sobre em {
+  font-style: italic;
+}
+/*================BANNER==============*/
+.principal-banner {
+  background-color: red;
+  height: 90vh;
+}
+/*=====================colaboradores====================*/
+
+.colaboradores table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  word-break: break-word;
+  height: 80vh;
+}
+
+.colaboradores th {
+  background-color: orange;
   color: white;
-  width: 60%;
+  padding: 30px;
 }
-.conteiner h1 {
-  padding-bottom: 60px;
+
+.colaboradores tr,
+.colaboradores td,
+.colaboradores th {
+  border: 2px;
+  border-style: solid;
+  border-color: white;
+  /* color: black; */
   text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.colaboradores img {
+  width: 400px;
+  height: 400px;
+}
+.imagem-texto {
+  word-wrap: break-word;
+  max-width: 90%;
+  align-items: center;
+  text-align: center;
+  background-color: aqua;
+}
+/*================CATALOGO==============*/
+.principal-catalogo {
+  background-color: rgb(32, 21, 134);
+  height: 90vh;
+}
+
+/*===============catalogo============*/
+
+.catalogo {
+  padding: 50px 0;
+  height: 80vh;
+}
+
+.titulo-catalogo {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  padding: 10px 0 0 0;
+}
+
+.titulo-catalogo:first-letter {
   font-size: 50px;
 }
-.conteiner .cadastro_login {
-  padding-bottom: 20px;
+
+.catalogo table {
+  border: 9px;
+  border-style: solid;
+  border-color: orange;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.catalogo tr,
+td {
   text-align: center;
-  font-size: 35px;
+  color: blue;
 }
 
-input {
-  width: 100%;
-  padding: 15px;
-  font-size: 15px;
-  border: none;
-  outline: none;
-  border-radius: 15px;
-}
-.inputs {
-  padding: 15px;
+.catalogo figcaption {
+  font-weight: bold;
+  font-size: 20px;
 }
 
-.botao {
-  background-color: dodgerblue;
-  padding: 15px;
-  width: 105%;
-  border-radius: 10px;
+.catalogo img {
+  width: 300px;
+  height: 250px;
+  padding: 20px 20px 0px 20px;
+}
+
+/*=====================Missao===============*/
+.missao {
+  padding-top: 50px;
+
+  width: 940px;
+  margin: 0 auto;
+}
+
+.titulo-missao {
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 2em;
+  /*Para limpar o float utilizar o clear*/
+  clear: left;
+}
+
+.paragrafo-missao {
+  padding: 30px;
+}
+
+.titulo-missao::first-letter {
+  font-size: 50px;
+}
+
+.missao-imagem {
+  width: 100px;
+  float: left;
+  margin: 10px;
+}
+
+.missao p {
+  margin: 0 0 1em;
+  font-size: 20px;
+}
+
+.missao strong {
+  font-weight: bold;
+}
+
+.missao em {
+  font-style: italic;
+}
+
+/*=================Contato=============*/
+.contato {
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.titulo-contato:first-letter {
+  font-size: 40px;
+}
+
+.contato li {
+  display: inline;
+  margin: 0 30px 0 25px;
+  font-size: 30px;
+  /*border; 2px solid red;*/
+}
+
+/*Footer*/
+footer {
+  background: url("imagens/bg.jpg");
+  text-align: center;
+}
+
+footer img {
+  padding-top: 15px;
+  padding-bottom: 1px;
+  width: 10%;
+}
+
+.copyright {
   color: white;
-  font-size: 26px;
+  font-size: 13px;
+  padding-bottom: 15px;
 }
-.botao:hover {
-  cursor: pointer;
-  background-color: rgb(24, 108, 192);
+
+/*teste*/
+
+nav {
+  background-color: black;
 }
